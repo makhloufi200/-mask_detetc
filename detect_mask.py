@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 from PIL import Image
 # Load the cascade
-face_cascade = cv2.CascadeClassifier('media/haarcascade_frontalface_alt2.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt2.xml')
 model = load_model("test_video.h5")
 
 # To capture video from webcam.
